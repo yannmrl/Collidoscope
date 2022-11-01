@@ -1,0 +1,51 @@
+body {
+    background-color: #252525;
+    margin: 0;
+}
+
+.waveform {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.wave {
+    height: 90%;
+    width: 4%;
+    margin-right: 0.5%;
+    background-color: yellowgreen;
+    transition: height 200ms ease-in-out 0s;
+}
+
+.slider {
+    background-color: yellow;
+    height: 5vh;
+    width: 0;
+    transition: width 200ms ease-in-out 0s;
+}
+
+.leftSelector {
+    height: 100vh;
+    position: absolute;
+    width: 1.5%; /*0.5*/
+    background-color: gold;
+    transition: margin-left 100ms linear 0s;
+}
+
+.rightSelector {
+    height: 100vh;
+    position: absolute;
+    width: 1.5%; /*0.5*/
+    background-color: gold;
+    transition: margin-left 100ms linear 0s;
+}
+
+.wBar {
+    width: 100%;
+    position: absolute;
+    height: 0.1vh;
+    background-color: yellowgreen;
+    margin-top: 47.425vh;
+}
