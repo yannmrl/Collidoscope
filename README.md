@@ -1,4 +1,4 @@
-# Collidoscope
+# Collidoscope Synthesizer
  A Synthesizer coded in HTML/JS handling MIDI inputs.
 
  I tried to make a replica of this synthesizer I found on youtube: https://www.youtube.com/watch?v=9XMfKYVu_fg using only html, js and nodejs.
